@@ -4,7 +4,7 @@ Using a list of words that I got from this [repo](https://github.com/sastrawi/sa
 ## Installation
 
 ```bash
-composer require --dev mbezhanov/faker-provider-collection
+composer require --dev rizkybaihaqy/laravel-faker-indonesian-words
 ```
 
 that's it, the package already uses [Laravel's package auto discovery](https://laravel.com/docs/8.x/packages#package-discovery)
