@@ -1,5 +1,5 @@
 {
-    "name": "rizky-baihaqy/laravel-faker-indonesian-words",
+    "name": "rizkybaihaqy/laravel-faker-indonesian-words",
     "description": "Change the default faker lorem with indonesian words",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^5.1|^6.0|^7.0|^8.0",
+        "fakerphp/faker": "^1.9.1"
+    },
     "autoload": {
         "psr-4": { "RizkyBaihaqy\\LaravelFakerIndonesianWords\\": "src/" }
     },
